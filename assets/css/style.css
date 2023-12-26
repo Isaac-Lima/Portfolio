@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+/* Header */
+
+header{
+    font-family: 'Rubik', sans-serif;
+    background-image: url(../img/hero-bg.png);
+    background-repeat: no-repeat;
+}
+
+nav{
+    background-color: transparent;
+}
+
+.hero-content {
+    margin: 160px auto 0;
+    width: 80%;
+}
+
+.colored-part{
+    color: #ffAA17;
+}
+
+.icons-contact a:hover{
+    background-color: #ffAA17;
+}
+
+.hero-btn{
+    background-color: #ffAA17;
+    border: none;
+    width: 13.6875rem;
+    height: 2.375rem;
+}
+
+.hero-btn:hover{
+    background-color: #c18215;
+}
+
+.hero-btn a{
+    text-decoration: none;
+    color: #1C1E22;
+}
+
+.hero-img{
+    margin: 115px auto 0;
+    width: 80%;
+}
+
+main{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* About */
+
+.about img{
+    width: 100%;
+    height: auto;
+}
+
+/* Services */
+
+.box{
+    padding: 40px 20px;
+    top: 0;
+}
+
+.box:hover{
+    transform: scale(1.02);
+}
+
+/* Projects */
+
+.projects img{
+    width: 100%;
+    height: auto;}
+
+.tools-btn{
+    background-color: #ffAA17;
+    border: none;
+    width: 13.6875rem;
+    height: 2.375rem;
+}
+
+.tools-btn:hover{
+    background-color: #c18215;
+}
+
+.tools-btn a{
+    text-decoration: none;
+    color: #1C1E22;
+}
+
+/* Tablet */
+
+@media(max-width:900px){
+    .hero-img img{
+        width: 95%;
+    }
+
+}
+@media(max-width:576px){
+    .hero-img{
+        margin: 135px auto 0;
+        width: 80%;
+    }
+}
+
+@media(max-width:480px){
+    .hero-img{
+        display: none;
+    }
+    .box:hover{
+        transform: none;
+    }
+}
