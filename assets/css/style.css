@@ -12,9 +12,15 @@
 header{
     font-family: 'Rubik', sans-serif;
     background-image: url(../img/hero-bg.png);
-    background-repeat: no-repeat;
 }
 
+.nav-item a{
+    color: #fff;
+}
+
+.nav-item a:hover{
+    color: #ffAA17;
+}
 
 .hero-content {
     margin: 160px auto 0;
@@ -61,7 +67,7 @@ main{
     height: auto;
 }
 
-/* Services */
+/* Ability */
 
 .box{
     padding: 40px 20px;
@@ -77,6 +83,7 @@ main{
 .projects img{
     width: 100%;
     height: auto;}
+
 
 .tools-btn{
     background-color: #ffAA17;

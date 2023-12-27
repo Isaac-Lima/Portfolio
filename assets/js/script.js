@@ -1,4 +1,3 @@
-//Get the button back to top
 let backToTopBtn = document.getElementById("btn-back-to-top");
 
 // When the user scrolls down 20px from the top of the document, show the button
