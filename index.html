@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" data-bs-theme="auto">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,16 +28,16 @@
                 </button>
 
                 <!-- SideBar -->
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar"
                     aria-labelledby="offcanvasNavbarLabel">
                     <!-- SideBar Header -->
                     <div class="offcanvas-header border-bottom">
-                        <a href="index.html" class="navbar-brand fs-2 text-dark">Isaac Lima</a>
-                        <button type="button" class="btn-close shadow-none" data-bs-dismiss="offcanvas"
+                        <a href="index.html" class="navbar-brand fs-2">Isaac Lima</a>
+                        <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas"
                             aria-label="Close"></button>
                     </div>
                     <!--SideBar Body-->
-                    <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0 bg-dark">
+                    <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
                         <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
                             <li class="nav-item mx-2">
                                 <a class="nav-link" aria-current="page" href="#home">Início</a>
@@ -54,6 +54,50 @@
                             <li class="nav-item mx-3">
                                 <a class="nav-link" href="#contact">Contato</a>
                             </li>
+                            <!-- Dark Mode -->
+                            <div class="dropdown nav-item mx-3" data-bs-theme="dark">
+                                <button class="btn bg-dark border-0 dropdown-toggle" type="button" id="bd-theme" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Toggle theme (auto)">
+                                    <i class="fa-solid fa-circle-half-stroke bi my-1 theme-icon-active" width="1em" height="1em">
+                                        <use href="#circle-half"></use>
+                                    </i>
+                                    <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="bd-theme-text">
+                                    <li>
+                                        <a class="dropdown-item" data-bs-theme-value="light" aria-pressed="false" style="cursor: pointer;">
+                                            <i class="fa-regular fa-sun me-2 opacity-50 theme-icon" width="1em" height="1em">
+                                                <use href="#sun-fill"></use>
+                                            </i>
+                                            Claro
+                                            <svg class="bi ms-auto d-none" width="1em" height="1em">
+                                                <use href="#check2"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" data-bs-theme-value="dark" aria-pressed="false" style="cursor: pointer;">
+                                            <i class="fa-regular fa-moon me-2 opacity-50 theme-icon" width="1em" height="1em">
+                                                <use href="#moon-stars-fill"></use>
+                                            </i>
+                                            Escuro
+                                            <svg class="bi ms-auto d-none" width="1em" height="1em">
+                                                <use href="#check2"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item active" data-bs-theme-value="auto" aria-pressed="true" style="cursor: pointer;">
+                                            <i class="fa-solid fa-circle-half-stroke me-2 opacity-50 theme-icon" width="1em" height="1em">
+                                                <use href="#circle-half"></use>
+                                            </i>
+                                            Automático
+                                            <svg class="bi ms-auto d-none" width="1em" height="1em">
+                                                <use href="#check2"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </ul>
                     </div>
                 </div>
@@ -175,7 +219,6 @@
                     </a>
                 </div>
             </div>
-            
             <!-- Mundo Digital -->
             <div class="row gap-5 mt-5">
                 <div class="col-xl">
@@ -222,6 +265,7 @@
                 </div>
             </div>
         </section>
+        <!-- Back to Top -->
         <button type="button" class="btn btn-floating btn-lg rounded-circle" id="btn-back-to-top">
             <i class="fas fa-arrow-up"></i>
         </button>
