@@ -14,14 +14,22 @@ header{
     background-image: url(../img/hero-bg.png);
 }
 
-
-
 .nav-item a, .dropdown button{
     color: #fff;
 }
 
 .nav-item a:hover, .dropdown button:hover{
     color: #ffAA17;
+}
+
+.theme-icon,
+.theme-icon-active {
+    fill: #6c757d; 
+}
+
+[data-bs-theme="dark"] .theme-icon,
+[data-bs-theme="dark"] .theme-icon-active {
+    fill: #ffffff;
 }
 
 .hero-content {
