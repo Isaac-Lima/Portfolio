@@ -14,22 +14,12 @@ header{
     background-image: url(../img/hero-bg.png);
 }
 
-.nav-item a, .dropdown button{
+.nav-item a{
     color: #fff;
 }
 
-.nav-item a:hover, .dropdown button:hover{
+.nav-item a:hover{
     color: #ffAA17;
-}
-
-.theme-icon,
-.theme-icon-active {
-    fill: #6c757d; 
-}
-
-[data-bs-theme="dark"] .theme-icon,
-[data-bs-theme="dark"] .theme-icon-active {
-    fill: #ffffff;
 }
 
 .hero-content {
@@ -47,18 +37,14 @@ header{
 
 .hero-btn{
     background-color: #ffAA17;
-    border: none;
-    width: 13.6875rem;
-    height: 2.375rem;
+    padding: 8px 60px;
+    text-decoration: none;
+    color: #1C1E22;
+
 }
 
 .hero-btn:hover{
     background-color: #c18215;
-}
-
-.hero-btn a{
-    text-decoration: none;
-    color: #1C1E22;
 }
 
 .hero-img{
@@ -92,23 +78,19 @@ main{
 
 .projects img{
     width: 100%;
-    height: auto;}
+    height: auto;
+}
 
 
 .tools-btn{
     background-color: #ffAA17;
-    border: none;
-    width: 13.6875rem;
-    height: 2.375rem;
+    padding: 10px 95px;
+    text-decoration: none;
+    color: #1C1E22;
 }
 
 .tools-btn:hover{
     background-color: #c18215;
-}
-
-.tools-btn a{
-    text-decoration: none;
-    color: #1C1E22;
 }
 
 /* Back to Top */
@@ -124,6 +106,41 @@ main{
 #btn-back-to-top:hover{
     background-color: #c18215;
 }
+
+/* Dark mode */
+
+.dropdown button{
+    color: white;
+    background-color: #ffAA17;
+}
+
+.dropdown button:active,
+.dropdown button:focus {
+    background-color: #ffAA17;
+    color: white;
+}
+
+.dropdown button:hover{
+    background-color: #c18215;
+    color: white;
+}
+
+.theme-icon,
+.theme-icon-active {
+    fill: #6c757d; 
+}
+
+[data-bs-theme="dark"] .theme-icon,
+[data-bs-theme="dark"] .theme-icon-active {
+    fill: #ffffff;
+}
+
+/* Footer */
+
+footer a{
+    transition: none;
+}
+
 
 /* Tablet */
 
