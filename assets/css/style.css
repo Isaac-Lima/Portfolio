@@ -68,6 +68,7 @@ main{
 .box{
     padding: 40px 20px;
     top: 0;
+    border: 2px solid #ffAA17;
 }
 
 .box:hover{
@@ -75,6 +76,7 @@ main{
 }
 
 /* Projects */
+
 
 .projects img{
     width: 100%;
