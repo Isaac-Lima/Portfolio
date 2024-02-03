@@ -27,6 +27,37 @@ header{
     width: 80%;
 }
 
+.line{
+    border-right: 2px solid rgba(255, 255, 255, .75);
+    color: rgba(255, 255, 255, .75);
+    white-space: nowrap;
+    font-size: 1.5em;
+    overflow: hidden;
+}
+
+.typing-animation{
+    animation: blinkCursor 500ms infinite steps(40) normal, 
+    typing 4s infinite steps(40) 2s normal both;
+}
+
+@keyframes blinkCursor{
+    from{
+        border-right-color: rgba(255, 255, 255, .75);
+    }
+    to{
+        border-right-color: transparent;
+    }
+}
+
+@keyframes typing{
+    from{
+        width: 0;
+    }
+    to{
+        width: 14em;
+    }
+}
+
 .colored-part{
     color: #ffAA17;
 }
@@ -67,7 +98,6 @@ main{
 
 .box{
     padding: 40px 20px;
-    top: 0;
     border: 2px solid #ffAA17;
 }
 
@@ -77,12 +107,10 @@ main{
 
 /* Projects */
 
-
 .projects img{
     width: 100%;
     height: auto;
 }
-
 
 .tools-btn{
     background-color: #ffAA17;
@@ -165,5 +193,15 @@ footer a{
     }
     .box:hover{
         transform: none;
+    }
+
+    .line{
+        font-size: 1.3em;
+    }
+}
+
+@media(max-width: 360px){
+    .line{
+        font-size: 1em;
     }
 }
