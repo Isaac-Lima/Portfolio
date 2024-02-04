@@ -27,6 +27,8 @@ header{
     width: 80%;
 }
 
+/* Typing Animation */
+
 .line{
     border-right: 2px solid rgba(255, 255, 255, .75);
     color: rgba(255, 255, 255, .75);
