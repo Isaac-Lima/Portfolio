@@ -4,6 +4,8 @@
 
 This project aims to provide information about me, my projects, and technical skills for potential recruiters and companies.
 
+Acess my portfolio: https://isaac-lima.github.io/Portfolio/
+
 ## 📄 Sections
 
 - Home: A section that introduces about me and the area I aspire to work in.
