@@ -51,6 +51,9 @@
                                 <a class="nav-link" href="#ability">Habilidades</a>
                             </li>
                             <li class="nav-item mx-3">
+                                <a class="nav-link" href="#competition">Competições</a>
+                            </li>
+                            <li class="nav-item mx-3">
                                 <a class="nav-link" href="#projects">Projetos</a>
                             </li>
                             <li class="nav-item mx-3">
@@ -74,8 +77,8 @@
                     <a href="https://www.linkedin.com/in/isaac-lima2301/" target="_blank" class="btn btn-outline-light border-2 rounded-circle">
                         <i class="fa-brands fa-linkedin-in fa-2x" style="color: #ffffff;"></i>
                     </a>
-                    <a href="mailto:isaac.lima25@aluno.ce.gov.br?subject=&body=" target="_blank" class="btn btn-outline-light border-2 rounded-circle">
-                        <i class="fa-solid fa-envelope fa-2x" style="color: #ffffff;"></i>
+                    <a href="#" target="_blank" class="btn btn-outline-light border-2 rounded-circle">
+                        <i class="fab fa-instagram fa-2x" style="color: #ffffff;"></i>
                     </a>
                 </div>
 
@@ -122,9 +125,9 @@
                 </div>
             </div>
         </section>
-        <!-- Competition | Participation -->
-        <section class="competition container-fluid">
-            <h1 class="text-center fw-bold mb-5 mt-5">Minhas <span class="colored-part">Competições | Participações</span></h1>
+        <!-- Competition -->
+        <section class="competition container-fluid" id="competition">
+            <h1 class="text-center fw-bold mb-5 mt-5">Minhas <span class="colored-part">Competições</span></h1>
             <div class="row gap-5">
                 <!-- Ceara Cientifico -->
                 <div class="competition-card col-xl text-center rounded-4 shadow">
@@ -260,7 +263,7 @@
                 </div>
         </section>
         <!-- Back to Top -->
-        <button type="button" class="btn btn-floating btn-lg rounded-circle" id="btn-back-to-top">
+        <button type="button" class="mb-4 btn btn-floating btn-lg rounded-circle" id="btn-back-to-top">
             <i class="fas fa-arrow-up" style="color: white;"></i>
         </button>
         
@@ -281,7 +284,7 @@
             </symbol>
         </svg>
 
-        <div class="dropdown mx-3 position-fixed bottom-0 start-0 mb-4" data-bs-theme="dark">
+        <div class="dropdown mx-3 position-fixed bottom-0 start-0 mb-5" data-bs-theme="dark">
             <button class="btn border-0 dropdown-toggle" type="button" id="bd-theme" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Toggle theme (auto)">
                 <svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#circle-half"></use></svg>
                 <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
@@ -317,22 +320,80 @@
             </ul>
         </div>
     </main>
-    <footer class="bg-dark text-white pt-5 pb-4 mt-5">
-        <div class="container text-center text-md-left">
-            <div class="row text-center text-md-left">
-                <div class="row d-flex justify-content-center">
-                    <div>
-                        <p>
-                            Copyright 2023 Todos os direitos reservados por:
-                            <a href="https://www.linkedin.com/in/isaac-silva-59061525b" target="_blank" style="text-decoration: none;">
-                                <strong>Isaac Silva</strong>
-                            </a>
-                        </p>
-                    </div>
-                </div>         
+    <!-- Footer -->
+    <footer class="text-center bg-dark text-light">
+        <div class="container">
+          <!-- Section: Links -->
+          <section class="border-bottom pb-4 mt-5">
+            <div class="row text-center d-flex justify-content-center pt-5">
+              <div class="col-md-2">
+                <h6 class="text-uppercase font-weight-bold">
+                  <a href="#home">Início</a>
+                </h6>
+              </div>
+    
+              <div class="col-md-2">
+                <h6 class="text-uppercase font-weight-bold">
+                  <a href="#about">Quem sou eu</a>
+                </h6>
+              </div>
+    
+              <div class="col-md-2">
+                <h6 class="text-uppercase font-weight-bold">
+                  <a href="#ability">Habilidades</a>
+                </h6>
+              </div>
+    
+              <div class="col-md-2">
+                <h6 class="text-uppercase font-weight-bold">
+                  <a href="#competition">Competições</a>
+                </h6>
+              </div>
+    
+              <div class="col-md-2">
+                <h6 class="text-uppercase font-weight-bold">
+                  <a href="#projects">Projetos</a>
+                </h6>
+              </div>
+              <div class="col-md-2">
+                <h6 class="text-uppercase font-weight-bold">
+                  <a href="#home">Contato</a>
+                </h6>
+              </div>
             </div>
+          </section>
+        
+          <!-- Section: Text -->
+          <section class="mb-5 my-5">
+            <div class="row d-flex justify-content-center">
+              <div class="col-lg-8 text-light">
+                <p>
+                  Este portfólio visa apresentar informações sobre mim, as competições em que já participei, destacar minhas habilidades e experiências na área do desenvolvimento web e robótica. Além disso, mostrar minhas conquistas e feitos importantes durante a minha jornada de estudante de informática.
+                </p>
+              </div>
+            </div>
+          </section>    
+          <!-- Section: Social -->
+          <section class="text-center mb-5">
+            <a href="" class="me-4">
+              <i class="fab fa-instagram fa-2x"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/isaac-lima2301/" target="_blank" class="me-4">
+              <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+            <a href="https://github.com/Isaac-Lima" target="_blank" class="me-4">
+              <i class="fab fa-github fa-2x"></i>
+            </a>
+          </section>
+        </div>    
+        <!-- Copyright -->
+        <div class="text-center p-3 text-light" style="background-color: rgba(0, 0, 0, 0.2)">
+          © 2024 Todos os direitos reservados a:
+            <a href="https://github.com/Isaac-Lima" target="_blank" class="text-decoration-underline">
+                Isaac Lima
+            </a>
         </div>
-    </footer>
+      </footer>
     <script src="assets/js/script.js"></script>
     <!-- Bootstrap Js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
