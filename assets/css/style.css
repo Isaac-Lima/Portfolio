@@ -144,6 +144,11 @@ main{
     height: auto;
 }
 
+.Financial-App img{
+    height: 300px;
+    border-radius: 8px;
+}
+
 /* C++ Logo */
 .tools img{
     width: 15%;
